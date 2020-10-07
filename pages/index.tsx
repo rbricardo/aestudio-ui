@@ -1,11 +1,11 @@
+import React from 'react'
 import Head from 'next/head'
 
-export default function Home() {
+const Home: React.FC = () => {
   return (
     <div>
       <Head>
         <title>Homepage</title>
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
@@ -14,3 +14,5 @@ export default function Home() {
     </div>
   )
 }
+
+export default Home
