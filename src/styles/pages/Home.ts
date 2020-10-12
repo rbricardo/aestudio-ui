@@ -21,3 +21,23 @@ export const Container = styled.div`
     line-height: 32px;
   }
 `
+
+export const DivButton = styled.div`
+  height: 30px;
+  width: 300px;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: ${props => props.theme.colors.text};
+`
+
+export const TextButton = styled.span`
+  color: ${props => props.theme.colors.primary};
+`
+
+export const ButtonsContent = styled.div`
+  display: flex;
+  flex-direction: row;
+`
