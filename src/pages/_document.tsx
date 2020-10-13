@@ -1,5 +1,11 @@
 import React from 'react'
-import Document, { DocumentInitialProps, Html, Main, NextScript, Head } from 'next/document'
+import Document, {
+  DocumentInitialProps,
+  Html,
+  Main,
+  NextScript,
+  Head
+} from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
 
 export default class MyDocument extends Document {
@@ -32,15 +38,18 @@ export default class MyDocument extends Document {
   render(): JSX.Element {
     return (
       <Html>
-      <Head>
-        <meta charSet="utf-8" />
-      </Head>
-      <body>
-        <Main />
-        <NextScript />
-      </body>
+        <Head>
+          <meta charSet="utf-8" />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
+            rel="stylesheet"
+          ></link>
+        </Head>
+        <body>
+          <Main />
+          <NextScript />
+        </body>
       </Html>
     )
   }
-
 }
