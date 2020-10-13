@@ -7,6 +7,7 @@
 - [About](#About)
 - [Install](#Install)
 - [Running the Project](#Running-the-Project)
+- [Demo](#demo)
 
 ### About
 
@@ -23,3 +24,12 @@ $ npm i
 ```shell
 $ npm run dev
 ```
+
+Open your browser and type http://localhost:3000/
+<br>
+<br>
+
+### Demo
+
+<br>
+<p align="center"><img src="https://raw.githubusercontent.com/rbricardo/aestudio-ui/main/assets/aestudiodemo.gif"></p>
