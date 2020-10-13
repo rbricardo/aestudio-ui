@@ -2,6 +2,8 @@
 
 ## Setup
 
+### *You need to install https://github.com/rbricardo/aestudio-api before moving with this repo!*
+
 ## Table of Contents
 
 - [About](#About)
