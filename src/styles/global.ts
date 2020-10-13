@@ -11,6 +11,7 @@ export default createGlobalStyle`
     background: ${props => props.theme.colors.background};
     color: ${props => props.theme.colors.text};
     font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
   }
 
 `

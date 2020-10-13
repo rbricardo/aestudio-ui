@@ -15,10 +15,13 @@ export const Container = styled.div`
 
   th {
     color: ${(props) => props.theme.colors.primary};
+    padding: 5px;
   }
 
   td {
-    text-align: center;
+    /* text-align: center; */
+    font-size: 14px;
+    padding: 5px;
   }
 
   h1 {
